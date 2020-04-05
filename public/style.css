@@ -1,0 +1,47 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: coral; }
+  body .form {
+    margin: 15px 0 auto; }
+    body .form .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      padding: 20px;
+      height: 100%;
+      background-color: cornsilk;
+      border-radius: 40px; }
+      body .form .container .list {
+        font-family: monospace, Tahoma, sans-serif;
+        font-size: 22px;
+        font-weight: 800; }
+        body .form .container .list input {
+          border-radius: 5px;
+          box-shadow: lightsalmon 7px 5px 5px 0px;
+          border: 1px solid wheat;
+          padding: 5px;
+          height: 40px;
+          width: 320px; }
+        body .form .container .list textarea {
+          width: 430px;
+          height: 150px;
+          box-shadow: lightsalmon 7px 5px 5px 0px;
+          border: 1px solid wheat; }
+        body .form .container .list .button {
+          box-shadow: lightsalmon 7px 5px 5px 0px;
+          border-radius: 5px;
+          background-color: wheat;
+          font-size: 22px;
+          width: 160px;
+          height: 40px;
+          border: 1px solid wheat; }
+      body .form .container form {
+        display: flex;
+        justify-content: space-around;
+        align-items: center; }
+
+/*# sourceMappingURL=style.css.map */
